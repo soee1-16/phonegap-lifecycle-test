@@ -3,9 +3,9 @@ var resumed_count = 0;
 var launched_count = 0;
 
 	function updateDisplay() {
-		$("#launched").text("Application launched: " + launched_count);
-		$("#resumed").text("Application paused: " + paused_count);
-		$("#paused").text("Application resumed: " + resumed_count);
+		$("#launched").text("Application launched: " + launched_count +"!");
+		$("#resumed").text("Application paused: " + paused_count +"!");
+		$("#paused").text("Application resumed: " + resumed_count +"!");
 	}
 
     // Handle the pause event
