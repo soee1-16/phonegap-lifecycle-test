@@ -8,8 +8,6 @@ var launched_count = 0;
 		$("#paused").text("Application resumed: " + resumed_count);
 	}
 
-
-
     // Handle the pause event
     //
     function onPause() {
@@ -23,7 +21,6 @@ var launched_count = 0;
 		resumed_count++;
 		updateDisplay();
     }
-
 
     // device APIs are available
     //
