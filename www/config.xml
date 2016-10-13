@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.helloworld"
-        version   = "3.7.0">
+        version   = "1.0.0">
 
     <name>Application Lifecycle Test</name>
 
@@ -17,7 +17,7 @@
     </author>
 
     <preference name="permissions"                value="none"/>   
-	<preference name="phonegap-version" value="3.7.0" />
+    
 	<access origin="*"/>
    	<plugin name="cordova-plugin-whitelist" version="1" />
 </widget>
